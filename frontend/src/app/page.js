@@ -1,14 +1,13 @@
-import Image from 'next/image'
-import { Box } from '@mui/material'
-import React from 'react'
+import { Box, Typography } from '@mui/material'
 
-export default function Home() {
+const Home = () => {
   return (
     <Box
-    width="100px"
-    height="100px"
     >
-      Hello world!
+      <h1>Hello</h1>
     </Box>
+
   )
 }
+
+export default Home
